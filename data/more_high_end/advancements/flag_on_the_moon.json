@@ -1,0 +1,57 @@
+{
+    "display": {
+        "icon": {
+            "item": "ad_astra:red_flag"
+        },
+        "title": "ヴォヤージュ1969",
+        "description": "月に旗を突き刺す",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "more_high_end:root",
+    "criteria": {
+        "": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "location": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "ad_astra:moon"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "ad_astra:white_flag",
+                                    "ad_astra:light_gray_flag",
+                                    "ad_astra:gray_flag",
+                                    "ad_astra:pink_flag",
+                                    "ad_astra:lime_flag",
+                                    "ad_astra:yellow_flag",
+                                    "ad_astra:light_blue_flag",
+                                    "ad_astra:magenta_flag",
+                                    "ad_astra:orange_flag",
+                                    "ad_astra:cyan_flag",
+                                    "ad_astra:purple_flag",
+                                    "ad_astra:blue_flag",
+                                    "ad_astra:brown_flag",
+                                    "ad_astra:green_flag",
+                                    "ad_astra:red_flag",
+                                    "ad_astra:black_flag"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

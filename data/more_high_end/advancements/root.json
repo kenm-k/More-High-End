@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:end_crystal"
+      },
+      "title": "More High-End",
+      "description": "ようこそ! More High-Endへ!",
+      "background": "minecraft:textures/block/white_wool.png",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "welcome": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

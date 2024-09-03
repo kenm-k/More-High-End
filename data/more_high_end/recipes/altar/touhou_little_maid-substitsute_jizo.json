@@ -1,0 +1,33 @@
+{
+	"type" : "touhou_little_maid:altar_crafting",
+	"ingredients" : [
+		{
+			"item" : "minecraft:totem_of_undying"
+		},
+		{
+			"item" : "minecraft:totem_of_undying"
+		},
+		{
+			"item" : "minecraft:totem_of_undying"
+		},
+		{
+			"item" : "minecraft:totem_of_undying"
+		},
+		{
+			"item" : "minecraft:totem_of_undying"
+		},
+		{
+			"item" : "minecraft:totem_of_undying"
+		}
+	],
+	"output" : {
+		"type" : "minecraft:item",
+		"nbt" : {
+			"Item": {
+				"id": "touhou_little_maid:substitute_jizo",
+				 "Count" : 1
+			}
+		}
+	},
+	"power" : 0.2
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "dtd",
+        "aca",
+        "dsd"
+    ],
+    "key": {
+        "d": {
+            "item": "refinedstorage:64k_storage_disk"
+        },
+        "a": {
+            "item": "mekanism:pellet_antimatter"
+        },
+        "t": {
+            "item": "mekanism:teleportation_core"
+        },
+        "c": {
+            "item": "dimensionalpocketsii:block_dimensional_core_enhanced"
+        },
+        "s": {
+            "item": "touhou_little_maid:wireless_io"
+        }
+    },
+    "result": {
+        "item": "refinedstorage:creative_storage_disk",
+        "count": 1
+    }
+}
