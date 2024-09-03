@@ -1,0 +1,22 @@
+{
+  "type": "more_high_end:normal",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "more_high_end:test",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:bedrock",
+          "height": 1
+        },
+        {
+          "block": "minecraft:stone",
+          "height": 60
+        }
+      ],
+      "structure_overrides": "minecraft:villages"
+    }
+  }
+}

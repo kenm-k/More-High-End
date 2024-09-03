@@ -2,5 +2,4 @@
 # This project is licensed under the MIT License
 # MIT License : https://opensource.org/licenses/mit-license.php
 
-#announcement
-tellraw @a [{"text":"More High End is loaded","color":"dark_blue","italic":true,"bold":true,"underlined":true}]
+function more_high_end:dimensional_armor_stand/armor_stand
