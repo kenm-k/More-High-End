@@ -1,0 +1,45 @@
+{
+	"type" : "touhou_little_maid:altar_crafting",
+	"ingredients" : [
+		{
+			"item" : "touhou_little_maid:wireless_io"
+		},
+		{
+			"item" : "minecraft:armor_stand"
+		},
+		{
+			"item" : "touhou_little_maid:chisel"
+		}
+	],
+	"output" : {
+		"type" : "minecraft:item",
+		"nbt" : {
+            "Item":{
+                "id":"minecraft:armor_stand",
+                "Count":1,
+                "tag":{
+                    "display":{
+                        "Name":"\"Dimension Gate Collector\""
+                    },
+                    "EntityTag":{
+                        "id":"minecraft:armor_stand",
+                        "Tags":["more_high_end_dimensional_armor_stand_collector"],
+                        "Invisible":true,
+                        "Small":true,
+                        "ShowArms":false,
+                        "NoGravity":true,
+                        "Marker":true
+                    },
+                    "HideFlags":true,
+                    "Enchantments":[
+                        {
+                            "id":"infinity",
+                            "lvl":1
+                        }
+                    ]
+                }
+            }
+        }
+	},
+	"power" : 0.2
+}

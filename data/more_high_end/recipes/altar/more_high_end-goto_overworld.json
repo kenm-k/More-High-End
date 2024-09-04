@@ -8,7 +8,7 @@
 			"item" : "minecraft:armor_stand"
 		},
 		{
-			"item" : "minecraft:crafting_table"
+			"item" : "minecraft:dirt"
 		}
 	],
 	"output" : {
@@ -19,15 +19,15 @@
 				 "Count":1,
 				 "tag":{
 					"display":{
-						"Name":"\"more_high_end:test\""
+						"Name":"\"minecraft:overworld\""
 					},
 					 "EntityTag":{
-						"id":"minecraft:armor_stand",
+                        "id":"minecraft:armor_stand",
 						"Tags":[
 							"more_high_end_dimensional_armor_stand",
-							"more_high_end:test"
+							"minecraft:overworld"
 						],
-						"CustomName":"\"more_high_end:test\"",
+						"CustomName":"\"minecraft:overworld\"",
                         "CustomNameVisible":true,
 						"Invisible": true,
 						"Small": true,
