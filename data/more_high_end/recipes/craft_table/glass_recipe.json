@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cyclic:glass_connected"
+        }
+    ],
+    "result": {
+        "item": "minecraft:glass",
+        "count": 4
+    }
+}
