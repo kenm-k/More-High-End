@@ -1,6 +1,7 @@
 {
     "values": [
         "more_high_end:load",
+        "more_high_end:dimensional_armor_stand/load",
         "oh_my_dat:sys/load"
     ]
 }

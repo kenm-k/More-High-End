@@ -1,0 +1,1 @@
+summon touhou_little_maid:maid ~ ~ ~ {Tags:["more_high_end_danmaku_enemy", "more_high_end_danmakuer"], ModelId:"touhou_little_maid:clownpiece", MaidBaubleInventory:{Size:9, Items:[{Slot:0, id:"touhou_little_maid:mute_bauble", Count:1b}]}}

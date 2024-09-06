@@ -24,6 +24,7 @@
 					 "EntityTag":{
                         "id":"minecraft:armor_stand",
 						"Tags":[
+							"more_high_end_dimensional_unused",
 							"more_high_end_dimensional_armor_stand",
 							"minecraft:overworld"
 						],

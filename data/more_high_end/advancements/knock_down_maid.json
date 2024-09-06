@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "touhou_little_maid:hakurei_gohei"
+    },
+    "title": "弾幕勝負",
+    "description": "メイドを撃破する!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "more_high_end:flag_on_the_moon",
+  "criteria": {
+    "knock_down_maid": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[\"more_high_end_danmaku_enemy\"]}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
