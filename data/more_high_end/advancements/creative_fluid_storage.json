@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "refinedstorage:creative_storage_disk"
+      "item": "refinedstorage:creative_fluid_storage_disk"
     },
     "title": "手のひらサイズの大海原",
     "description": "クリエイティブ液体ディスクを作成する",
@@ -12,10 +12,16 @@
   },
   "parent": "more_high_end:root",
   "criteria": {
-    "refinedstorage_make_creative_fluid_storage_disk": {
-      "trigger": "minecraft:recipe_crafted",
+    "refinedstorage_make_creative_fluid_storage": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "more_high_end:craft_table/refinedstorage-creative_fluid_storage_disk"
+        "items": [
+          {
+            "items": [
+              "refinedstorage:creative_fluid_storage_disk"
+            ]
+          }
+        ]
       }
     }
   }

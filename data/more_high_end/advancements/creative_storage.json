@@ -12,10 +12,16 @@
   },
   "parent": "more_high_end:root",
   "criteria": {
-    "refinedstorage_make_creative_storage_disk": {
-      "trigger": "minecraft:recipe_crafted",
+    "refinedstorage_make_fluid_storage": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "more_high_end:craft_table/refinedstorage-creative_storage_disk"
+        "items": [
+          {
+            "items": [
+              "refinedstorage:creative_storage_disk"
+            ]
+          }
+        ]
       }
     }
   }
