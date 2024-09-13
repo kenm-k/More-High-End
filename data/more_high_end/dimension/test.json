@@ -12,7 +12,7 @@
           "height": 1
         },
         {
-          "block": "minecraft:stone",
+          "block": "minecraft:infested_stone",
           "height": 60
         }
       ],
