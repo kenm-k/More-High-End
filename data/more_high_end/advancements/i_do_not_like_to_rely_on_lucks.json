@@ -3,8 +3,8 @@
     "icon": {
       "item": "refinedstorage:creative_storage_disk"
     },
-    "title": "四次元ポケット",
-    "description": "クリエイティブディスクを作成する",
+    "title": "運ゲーは嫌いです",
+    "description": "砂利から火打ち石を作成する",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -15,7 +15,7 @@
     "refinedstorage_make_creative_storage_disk": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "more_high_end:craft_table/refinedstorage-creative_storage_disk"
+        "recipe_id": "more_high_end:craft_table/minecraft-flint"
       }
     }
   }

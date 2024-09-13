@@ -3,7 +3,7 @@
 	"pattern" : [
 		"dcd",
 		"aba",
-		"dsd"
+		"dad"
 	],
 	"key" : {
 		"a" : {
@@ -17,9 +17,6 @@
 		},
 		"d" : {
 			"item" : "refinedstorage:4096k_fluid_storage_disk"
-		},
-		"s" : {
-			"item" : "touhou_little_maid:wireless_io"
 		}
 	},
 	"result" : {

@@ -1,1 +1,0 @@
-execute as @e[type=touhou_little_maid:maid, tag=more_high_end_danmaku_enemy] at @s if entity @a[distance=..30] run function more_high_end:danmaku/enemy

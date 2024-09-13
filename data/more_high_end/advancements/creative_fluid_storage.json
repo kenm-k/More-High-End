@@ -1,22 +1,22 @@
 {
-    "display": {
-        "icon": {
-            "item": "refinedstorage:creative_fluid_storage_disk"
-        },
-        "title": "それは、全てを受け入れるのよ。",
-        "description": "クリエイティブ流体ディスクを作成する",
-        "frame": "challenge",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "refinedstorage:creative_storage_disk"
     },
-    "parent": "more_high_end:evening_star",
-    "criteria": {
-        "refinedstorage_make_creative_storage_disk": {
-            "trigger": "minecraft:recipe_crafted",
-            "conditions": {
-                "recipe_id": "more_high_end:craft_table/refinedstorage-creative_fluid_storage_disk"
-            }
-        }
+    "title": "手のひらサイズの大海原",
+    "description": "クリエイティブ液体ディスクを作成する",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "more_high_end:root",
+  "criteria": {
+    "refinedstorage_make_creative_storage_disk": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "more_high_end:craft_table/refinedstorage-creative_fluid_storage_disk"
+      }
     }
+  }
 }

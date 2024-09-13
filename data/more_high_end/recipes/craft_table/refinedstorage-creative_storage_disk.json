@@ -3,7 +3,7 @@
     "pattern": [
         "dtd",
         "aca",
-        "dsd"
+        "dad"
     ],
     "key": {
         "d": {
@@ -17,9 +17,6 @@
         },
         "c": {
             "item": "dimensionalpocketsii:block_dimensional_core_enhanced"
-        },
-        "s": {
-            "item": "touhou_little_maid:wireless_io"
         }
     },
     "result": {

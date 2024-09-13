@@ -1,1 +1,0 @@
-execute as @e[type=armor_stand, name="Dimension Gate"] if data entity @s {Marker: 1b} run kill @s
