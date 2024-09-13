@@ -12,7 +12,7 @@
   },
   "parent": "more_high_end:root",
   "criteria": {
-    "refinedstorage_make_creative_storage_disk": {
+    "minecraft_make_flint": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
         "recipe_id": "more_high_end:craft_table/minecraft-flint"
