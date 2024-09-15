@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#CK",
+        "SJG",
+        "TSV"
+    ],
+    "key": {
+        "#": {
+            "item": "create:crushed_raw_gold"
+        },
+        "C": {
+            "item": "create:crushed_raw_iron"
+        },
+        "K": {
+            "item": "create:crushed_raw_zinc"
+        },
+        "S": {
+            "item": "minecraft:soul_sand"
+        },
+        "J": {
+            "item": "slashblade:proudsoul_tiny"
+        },
+        "G": {
+            "item": "create:crushed_raw_copper"
+        },
+        "T": {
+            "item": "minecraft:soul_soil"
+        },
+        "V": {
+            "item": "create:crushed_raw_osmium"
+        }
+    },
+    "result": {
+        "item": "slashblade:proudsoul_tiny",
+        "count": 1
+    }
+}
