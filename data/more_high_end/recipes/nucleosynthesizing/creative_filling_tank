@@ -1,0 +1,16 @@
+{
+    "type": "mekanism:nucleosynthesizing",
+    "duration": 1000,
+    "gasInput": {
+        "amount": 1000,
+        "gas": "mekanism:antimatter"
+    },
+    "itemInput": {
+        "ingredient": {
+            "item": "create_sa:large_fueling_tank"
+        }
+    },
+    "output": {
+        "item": "create_sa:creative_filling_tank"
+    }
+}
